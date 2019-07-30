@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="MindsLineItems.accounting_lineitem_menu" model="ir.ui.menu" >
+    <field name="action" ref="MindsLineItems.lineitem_action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">LineItem</field>
+    <field name="parent_id" ref="account_accountant.menu_accounting"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+</odoo>
