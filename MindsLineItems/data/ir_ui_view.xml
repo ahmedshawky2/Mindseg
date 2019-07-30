@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
-  <record id="studio_customization.odoo_studio_account__91707460-be6f-4c5c-baa0-f84530e22904" model="ir.ui.view" context="{'studio': True}">
+  <record id="odoo_studio_account__91707460-be6f-4c5c-baa0-f84530e22904" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -31,7 +31,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="studio_customization.default_search_view__34ba4b9b-b391-4402-bcaa-ec99625ac761" model="ir.ui.view" context="{'studio': True}">
+  <record id="default_search_view__34ba4b9b-b391-4402-bcaa-ec99625ac761" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search string="Invoice Line">
@@ -48,7 +48,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="studio_customization.odoo_studio_default__2b322df9-1a02-469b-a6bc-c20c892b3667" model="ir.ui.view" context="{'studio': True}">
+  <record id="odoo_studio_default__2b322df9-1a02-469b-a6bc-c20c892b3667" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -67,7 +67,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="studio_customization.default_search_view__34ba4b9b-b391-4402-bcaa-ec99625ac761"/>
+    <field name="inherit_id" ref="default_search_view__34ba4b9b-b391-4402-bcaa-ec99625ac761"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">account.invoice.line</field>
